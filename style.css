@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
 body{
     position: relative;
     display: flex;
@@ -22,12 +31,13 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    max-width: 900px;
-    height: 700px;
+    max-width: 400px;
+    height: 400px;
     background-color: hsl(0, 0%, 100%);
     margin: 2rem;
     border-radius: 15px;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .img-section{
@@ -45,6 +55,7 @@ body{
 }
 
 .content-section h3{
+    font-family: 'Montserrat';
     text-transform: uppercase;
     color: hsl(228, 12%, 48%);
     letter-spacing: 3px;
@@ -114,26 +125,34 @@ body{
 
     .container{
         margin: 10px;
-        height: 400px;
-        max-width: 700px;
+        height: 450px;
+        max-width: 600px;
         flex-direction: row;
+        transform: scale(0.8);
     }
 
     .img-section{
         background-image: url('images/image-product-desktop.jpg');
         background-size: cover;
         height: 100%;
-        width: 45%;
+        width: 50%;
     }
 
     .content-section{
         height: 100%;
-        width: 45%;
+        width: 50%;
         margin: auto;
+        padding: 1.9rem;
+        transform: scale(1.1);
+    }
+
+    .content-section h1{
+        padding-right: 2rem;
+        margin-bottom: 1rem;
     }
 
     .price{
-        margin: 1rem auto;
+        margin: 15px auto;
     }
 
     footer{
