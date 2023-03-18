@@ -6,6 +6,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -18,6 +19,11 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
+
+### Links
+
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-page-design-with-cssflexbox-hPg-VQsc-B)
+- Live Site URL: [Live site URL](https://raza7522.github.io/Product-preview-card-component/)
 
 
 ## My process
